@@ -5,26 +5,40 @@
         <title>3 carrés</title>
         <style>
             body{
+                
                 background-color: #aaa;
             
             }
             #container{
+                position: relative;
                 width: 600px;
                 height: 600px;
                 background-color: white;
                 margin: auto;
             }
+            #rouge,#vert,#bleu{
+                position: absolute;
+            }
             #rouge{
+                bottom: 46px;
+                left: 37%;
+                transform: rotate(-45deg);
                 width: 200px;
                 height: 200px;
                 background-color: red;
             }
             #vert{
+                bottom: 15%;
+                right: 6%;
+                transform: rotate(-90deg);
                 width: 100px;
                 height: 100px;
                 background-color: green;
             }
             #bleu{
+                bottom: 26%;
+                left: 26%;
+                transform: rotate(-45deg);
                 width: 50px;
                 height: 50px;
                 background-color: blue;
